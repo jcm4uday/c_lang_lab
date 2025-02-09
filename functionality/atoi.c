@@ -8,10 +8,11 @@ int atoi(char s[]);
 
 int main(){
 
-    char var[SIZE]= {'0', '1', '3', '5', '7', '9'};
+    // char var[SIZE]= {'0', '1', '3', '5', '7', '9'};
+    char var[SIZE]= "13579";
     for(int i = LOOP_INT; var[i] != '\0'; i++){
         // var[i] = i;
-        printf("%d\n", var[i]);
+        printf("%c\n", var[i]);
     }
      printf("%d\n", atoi(var));
      return 0;
